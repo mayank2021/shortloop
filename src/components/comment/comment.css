@@ -1,0 +1,31 @@
+.comment-main--container{
+    display: flex;
+    margin: 10px 50px;
+}
+
+.comment-avatar--image{
+    width: 60px;
+    height: 60px;
+    border-radius: 500px;
+}
+
+.comment-text--container p {
+    font-size: 1rem;
+    margin: 0;
+    background-color: rgba(0,0,0,0.09);
+    padding: 8px 15px;
+    border-radius: 500px;
+}
+
+.comment-text--container button{
+    border: none;
+    background: none;
+    color: #5A96E3;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.comment-text--container span{
+    font-size: 0.9rem;
+    color: rgba(0,0,0,0.6);
+}
